@@ -1,0 +1,37 @@
+body {
+  background: url('http://4.bp.blogspot.com/-u7MqKasHdTw/T3wwpTTYN9I/AAAAAAAACLg/NkZvhR1BNSY/s1600/Diana-Spencer-4.jpg')
+  no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.title {
+  background: transparent;
+  color     : #DAA520;
+  margin    : 0px;
+  padding   : 30px;
+  text-align: center;
+  width     : 60%;
+}
+
+.divider {
+  background: url('http://badassbookreviews.com/wp-content/uploads/2014/03/gold-divider.jpg') no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.board {
+  background-color: rgba(0,0,0,0.5);
+  padding         : 20px;
+  width           : 60%;
+  margin-bottom   : 20px;
+  color           : #fff;
+}
+
+p {
+  text-align: justify;
+}

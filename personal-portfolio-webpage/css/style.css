@@ -1,0 +1,67 @@
+body {
+  position: relative;
+}
+
+.navbar {
+  background-color: #E74C3C;
+  padding         : 5px 30px;
+  height          : 50px;
+}
+
+.navbar-brand {
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.active {
+  color          : #fff;
+  text-decoration: underline;
+}
+
+.nav-link:hover, 
+.nav-link:focus {
+  color          : #fff;
+  text-decoration: underline;
+}
+
+#content {
+  text-align: justify;
+}
+
+#about, #portfolio {
+  padding-top: 60px;
+}
+
+.row {
+  margin: 10px 0px;
+}
+
+.header {
+  text-align: center;
+  padding   : 10px;
+  color     : #3498DB;
+}
+
+#about-content {
+  font-size: 13px;
+}
+
+#about-social .fa {
+  margin: 10px;
+}
+
+#about-social-git {
+  color: #000;
+}
+
+#about-social-insta {
+  color: #E74C3C;
+}
+
+
+
+
+
