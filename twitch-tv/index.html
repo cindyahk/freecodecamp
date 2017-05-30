@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Twitch TV</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div id="main">
+  <div id="welcome">
+    <h1>WELCOME TO Twitch TV</h1>
+  </div>
+  <div id="filters" class="btn-group" data-toggle="buttons">
+    <label class="btn active">
+      <input type="radio" name="filters" id="filter-all" checked>ALL
+    </label>
+    <label class="btn">
+      <input type="radio" name="filters" id="filter-online">Online
+    </label>
+    <label class="btn">
+      <input type="radio" name="filters" id="filter-offline">Offline
+    </label>
+  </div>
+  <div class="list-group">
+    <div id="online"></div>
+    <div id="offline"></div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

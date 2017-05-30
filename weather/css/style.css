@@ -1,0 +1,62 @@
+body {
+  background: url("http://webneel.com/wallpaper/sites/default/files/images/07-2013/tulips-flower-wallpaper.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container-fluid {
+    height: 100%;
+    width: 60%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.author, a {
+  color: #fff;
+}
+
+.card {
+    height: auto;
+    border: 0px;
+    background: rgba(0,0,0,0.5);
+}
+
+.card-title {
+    font-family: "Annie Use Your Telescope";
+    font-size: calc(70% + 1vw);
+    padding-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#temperature {
+  font-size: calc(112.5% + 5vw);
+  display: flex;
+}
+
+#metric-switch span {
+  cursor: pointer;
+  margin: 0em 0.5em;
+}
+
+#metric-switch span:hover {
+  text-decoration: underline;
+}
+
+#summary {
+  font-size: calc(60% + 0.5vw);
+}
+
+.card-block {
+  padding: 0px;
+}
+
+.list-group {
+  background: #FCFAE1;
+}
+.list-group-item {
+  color: initial;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Weather</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container-fluid">
+  <div>
+    <p class="author">
+      by <a href="https://codepen.io/cindyak86/">cindy ah kioon</a>
+    </p>
+  </div>
+  <div class="card text-center card-inverse">
+      <div id="main" class="card-title">
+        <div id="summary"></div>
+        <div id="temperature"><i class="fa fa-spinner fa-spin"></i></div>
+        <div id="metric-switch">
+          <span id="celsius" class="wi wi-celsius"></span>/<span id="fahrenheit" class="wi wi-fahrenheit"></span>
+        </div>
+        <div id="location"></div>
+      </div>
+      <div id="details" class="card-block">
+        <ul class="list-group">
+          <li class="list-group-item">
+            <div id="sunrise" class="col-md-6"><i class="wi wi-horizon-alt"></i> Sunrise<p></p></div>
+            <div id="sunset" class="col-md-6"><i class="wi wi-horizon"></i> Sunset<p></p></div>
+          </li>
+          <li class="list-group-item">
+            <div id="min-temp" class="col-md-6"><i class="wi wi-thermometer-exterior"></i> Min Temp <p></p></div>
+            <div id="max-temp" class="col-md-6"><i class="wi wi-thermometer"></i> Max Temp<p></p></div>
+          </li>
+          <li class="list-group-item">
+            <div id="humidity" class="col-md-6"><i class="wi wi-humidity"></i> Humidity <p></p></div>
+            <div id="pressure" class="col-md-6"><i class="wi wi-barometer"></i> Pressure <p></p></div>
+          </li>
+        </ul>
+      </div>
+  </div>
+</div>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
